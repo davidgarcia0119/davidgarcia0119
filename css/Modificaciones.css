@@ -18,9 +18,16 @@ h6 {
   font-weight: 700;
 font-family: 'Open Sans', sans-serif !important;
 }
+
+
+.page-section h3.section-subheading {
+
+  font-style: normal !important;
+}
+
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
+  font-style: normal !important;
   line-height: 22px;
   margin-bottom: 25px;
 font-family: 'Open Sans', sans-serif !important;
@@ -34,6 +41,10 @@ header.masthead .intro-text .intro-heading {
 font-family: 'Open Sans', sans-serif !important;
 }
 
+.container2 {
+  margin-top: 96px;
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -41,7 +52,7 @@ font-family: 'Open Sans', sans-serif !important;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 30px;
-    font-style: italic;
+    font-style: normal !important;
     line-height: 40px;
     margin-bottom: 25px;
 font-family: 'Open Sans', sans-serif !important;
@@ -120,7 +131,7 @@ font-family: 'Open Sans', sans-serif !important;
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
 }
-
+/*
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -134,7 +145,7 @@ font-family: 'Open Sans', sans-serif !important;
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
+  }*/
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
   }
@@ -171,3 +182,57 @@ element.style {
     text-transform: none;
 font-family: 'Open Sans', sans-serif !important;
 }
+.text-list2{
+  text-align: left;
+}
+.text-list4{
+  text-align: left;
+  padding-left: 80px;
+
+}
+.fas rounded-circle{
+
+  width: 316px;
+height: 315px;
+}
+
+
+
+.projects-section {
+  padding: 5rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #D78D34;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #D78D34;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .Map{
+
+    padding-left: 150px !important;
+  }
+  }
